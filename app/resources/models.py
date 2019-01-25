@@ -1,4 +1,4 @@
-from app import db
+from app.manage import db
 
 class tbl_charge(db.Model):
     Min = db.Column(db.Integer(64))
